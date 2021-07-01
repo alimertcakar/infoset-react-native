@@ -26,9 +26,9 @@ const App: React.FC<{}> = () => {
     <>
       <ChatWidget
         isVisible={visible}
-        apiKey="your_chat_widget_api_key"
-        iosKey="your_chat_widget_ios_key"
-        androidKey="your_chat_widget_android_key"
+        apiKey="mIpz5fM2zvlSQP0zRihu2UJdRjPB0cFGvRUdnW43"
+        iosKey="VdWWpj2JbLjfScwOQM0uBmOtU85eOXrv"
+        androidKey="HolFCnNcHivTahSyUluFW2UBqArrCyry"
         color="#E69618"
         onWidgetHide={() => setVisible(false)}
         onWidgetWillHide={() => console.log('will hide')}
